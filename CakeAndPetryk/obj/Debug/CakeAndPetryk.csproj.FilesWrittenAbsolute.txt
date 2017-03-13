@@ -1,0 +1,5 @@
+/home/hi/Projects/RiderProjects/AlgoTester/CakeAndPetryk/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/CakeAndPetryk/bin/Debug/CakeAndPetryk.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/CakeAndPetryk/bin/Debug/CakeAndPetryk.exe
+/home/hi/Projects/RiderProjects/AlgoTester/CakeAndPetryk/obj/Debug/CakeAndPetryk.exe
+/home/hi/Projects/RiderProjects/AlgoTester/CakeAndPetryk/obj/Debug/CakeAndPetryk.exe.mdb

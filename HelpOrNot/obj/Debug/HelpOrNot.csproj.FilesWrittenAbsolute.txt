@@ -1,0 +1,5 @@
+/home/hi/Projects/RiderProjects/AlgoTester/HelpOrNot/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/HelpOrNot/bin/Debug/HelpOrNot.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/HelpOrNot/bin/Debug/HelpOrNot.exe
+/home/hi/Projects/RiderProjects/AlgoTester/HelpOrNot/obj/Debug/HelpOrNot.exe
+/home/hi/Projects/RiderProjects/AlgoTester/HelpOrNot/obj/Debug/HelpOrNot.exe.mdb

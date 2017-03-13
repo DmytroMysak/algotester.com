@@ -1,0 +1,5 @@
+/home/hi/Projects/RiderProjects/AlgoTester/MakePalindrome/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/MakePalindrome/bin/Debug/MakePalindrome.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/MakePalindrome/bin/Debug/MakePalindrome.exe
+/home/hi/Projects/RiderProjects/AlgoTester/MakePalindrome/obj/Debug/MakePalindrome.exe
+/home/hi/Projects/RiderProjects/AlgoTester/MakePalindrome/obj/Debug/MakePalindrome.exe.mdb

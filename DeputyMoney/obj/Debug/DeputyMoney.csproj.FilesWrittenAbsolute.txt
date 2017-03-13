@@ -1,0 +1,5 @@
+/home/hi/Projects/RiderProjects/AlgoTester/DeputyMoney/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/DeputyMoney/bin/Debug/DeputyMoney.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/DeputyMoney/bin/Debug/DeputyMoney.exe
+/home/hi/Projects/RiderProjects/AlgoTester/DeputyMoney/obj/Debug/DeputyMoney.exe
+/home/hi/Projects/RiderProjects/AlgoTester/DeputyMoney/obj/Debug/DeputyMoney.exe.mdb

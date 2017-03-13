@@ -1,0 +1,5 @@
+/home/hi/Projects/RiderProjects/AlgoTester/VerkhovnaRada/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/VerkhovnaRada/bin/Debug/VerkhovnaRada.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/VerkhovnaRada/bin/Debug/VerkhovnaRada.exe
+/home/hi/Projects/RiderProjects/AlgoTester/VerkhovnaRada/obj/Debug/VerkhovnaRada.exe
+/home/hi/Projects/RiderProjects/AlgoTester/VerkhovnaRada/obj/Debug/VerkhovnaRada.exe.mdb

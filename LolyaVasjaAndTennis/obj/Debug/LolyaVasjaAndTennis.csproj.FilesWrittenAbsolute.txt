@@ -1,0 +1,5 @@
+/home/hi/Projects/RiderProjects/AlgoTester/LolyaVasjaAndTennis/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/LolyaVasjaAndTennis/bin/Debug/LolyaVasjaAndTennis.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/LolyaVasjaAndTennis/bin/Debug/LolyaVasjaAndTennis.exe
+/home/hi/Projects/RiderProjects/AlgoTester/LolyaVasjaAndTennis/obj/Debug/LolyaVasjaAndTennis.exe
+/home/hi/Projects/RiderProjects/AlgoTester/LolyaVasjaAndTennis/obj/Debug/LolyaVasjaAndTennis.exe.mdb

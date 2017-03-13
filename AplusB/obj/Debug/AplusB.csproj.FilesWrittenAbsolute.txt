@@ -1,0 +1,10 @@
+/home/hi/RiderProjects/AplusB/AplusB/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/RiderProjects/AplusB/AplusB/bin/Debug/AplusB.exe.mdb
+/home/hi/RiderProjects/AplusB/AplusB/bin/Debug/AplusB.exe
+/home/hi/RiderProjects/AplusB/AplusB/obj/Debug/AplusB.exe
+/home/hi/RiderProjects/AplusB/AplusB/obj/Debug/AplusB.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/AplusB/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/AplusB/bin/Debug/AplusB.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/AplusB/bin/Debug/AplusB.exe
+/home/hi/Projects/RiderProjects/AlgoTester/AplusB/obj/Debug/AplusB.exe
+/home/hi/Projects/RiderProjects/AlgoTester/AplusB/obj/Debug/AplusB.exe.mdb

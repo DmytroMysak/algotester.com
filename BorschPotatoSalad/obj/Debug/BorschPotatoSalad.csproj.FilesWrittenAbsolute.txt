@@ -1,0 +1,5 @@
+/home/hi/Projects/RiderProjects/AlgoTester/BorschPotatoSalad/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/BorschPotatoSalad/bin/Debug/BorschPotatoSalad.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/BorschPotatoSalad/bin/Debug/BorschPotatoSalad.exe
+/home/hi/Projects/RiderProjects/AlgoTester/BorschPotatoSalad/obj/Debug/BorschPotatoSalad.exe
+/home/hi/Projects/RiderProjects/AlgoTester/BorschPotatoSalad/obj/Debug/BorschPotatoSalad.exe.mdb

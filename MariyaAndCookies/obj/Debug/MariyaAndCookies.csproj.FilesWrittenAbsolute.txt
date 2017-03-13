@@ -1,0 +1,5 @@
+/home/hi/Projects/RiderProjects/AlgoTester/MariyaAndCookies/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/MariyaAndCookies/bin/Debug/MariyaAndCookies.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/MariyaAndCookies/bin/Debug/MariyaAndCookies.exe
+/home/hi/Projects/RiderProjects/AlgoTester/MariyaAndCookies/obj/Debug/MariyaAndCookies.exe
+/home/hi/Projects/RiderProjects/AlgoTester/MariyaAndCookies/obj/Debug/MariyaAndCookies.exe.mdb

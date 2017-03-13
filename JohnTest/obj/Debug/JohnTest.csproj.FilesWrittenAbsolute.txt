@@ -1,0 +1,5 @@
+/home/hi/Projects/RiderProjects/AlgoTester/JohnTest/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hi/Projects/RiderProjects/AlgoTester/JohnTest/bin/Debug/JohnTest.exe.mdb
+/home/hi/Projects/RiderProjects/AlgoTester/JohnTest/bin/Debug/JohnTest.exe
+/home/hi/Projects/RiderProjects/AlgoTester/JohnTest/obj/Debug/JohnTest.exe
+/home/hi/Projects/RiderProjects/AlgoTester/JohnTest/obj/Debug/JohnTest.exe.mdb
