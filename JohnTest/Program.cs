@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Numerics;
+using System.Linq;
+using System.Text;
 
 namespace JohnTest
 {
@@ -7,39 +8,70 @@ namespace JohnTest
     {
         public static void Main(string[] args)
         {
-            var data = Console.ReadLine().Split(' ');
-            BigInteger[] input = {BigInteger.Parse(data[0]), BigInteger.Parse(data[1]) };
-            var inputModify = new[] {Modify(input[0].ToString()), Modify(input[1].ToString())};
-            var sum = BigInteger.Zero;
-            for (var i = input[0]; i <= input[1]; ++i)
+            var scope = Array.ConvertAll(Console.ReadLine().Split(' '), Convert.ToInt64);
+            var count = scope[1] + 1 - scope[0];
+//            if(scope[1] > 101) count += scope[1] + 1 - (scope[0] < 101 ? 101 : scope[0]);
+            for (var i = scope[0] < 101 ? 101 : scope[0]; i <= scope[1]; ++i)
             {
-                var iModify = Modify(i.ToString());
-                if (i >= input[0] && i <= input[1])
+                var number = i.ToString();
+//                if (number.Substring(1).Distinct().Count() == 1)
+//                {
+//                    --count;
+//                }
+                var left = number.Where((str, ix) => ix % 2 == 0)
+                    .Aggregate(new StringBuilder(), (seed, c) => seed.Append(c)).ToString();
+                var right = number.Where((str, ix) => ix % 2 == 1).Reverse();
+                right = number.Length % 2 == 1
+                    ? right.Reverse().Aggregate(new StringBuilder(), (seed, c) => seed.Append(c)).ToString()
+                    : right.Aggregate(new StringBuilder(), (seed, c) => seed.Append(c)).ToString();
+                var modify = int.Parse(left + right);
+                if (modify != i || (modify < scope[0] || modify > scope[1]))
                 {
-                    ++sum;
-                }
-                if (iModify != i)// && iModify >= inputModify[0] && iModify <= inputModify[1])
-                {
-                    ++sum;
+                    ++count;
                 }
             }
-            Console.WriteLine(sum);
-        }
-
-        private static BigInteger Modify(string i)
-        {
-            if (i.Length <= 2) return BigInteger.Parse(i);
-            var iModify = "";
-            for (var j = 0; j <= i.Length / 2; ++j)
-            {
-                if (j == i.Length - j - 1)
-                {
-                    iModify += i[j].ToString();
-                    break;
-                }
-                iModify += i[j] + i[i.Length - j - 1].ToString();
-            }
-            return BigInteger.Parse(iModify);
+            Console.WriteLine(count);
         }
     }
 }
+
+//using System;
+//using System.Text;
+//
+//namespace JohnTest
+//{
+//    internal class Program
+//    {
+//        private static long Modify(string normalNumber)
+//        {
+//            var left = new StringBuilder();
+//            var right = new StringBuilder();
+//
+//            for (var i = 0; i < normalNumber.Length - 1; i = i + 2)
+//            {
+//                left.Append(normalNumber[i]);
+//                right.Insert(0, normalNumber[i + 1]);
+//            }
+//            if (normalNumber.Length % 2 != 0)
+//            {
+//                left.Append(normalNumber[normalNumber.Length - 1]);
+//            }
+//            return Convert.ToInt64(left.ToString() + right.ToString());
+//        }
+//
+//        public static void Main(string[] args)
+//        {
+//            var scope = Array.ConvertAll(Console.ReadLine().Split(' '), Convert.ToInt64);
+//            var count = scope[1] + 1 - (scope[0] < 0 ? 0 : scope[0]);
+//            for (var i = scope[0] < 101 ? 101 : scope[0]; i <= scope[1]; ++i)
+//            {
+//                var modify = Modify(i.ToString());
+//                if (modify < scope[0] || modify > scope[1])
+//                {
+//                    ++count;
+//                }
+//            }
+//            Console.WriteLine(count);
+//        }
+//    }
+//}
