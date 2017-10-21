@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 namespace KolyaVasjaAndHiddenRoon
 {
@@ -9,38 +10,61 @@ namespace KolyaVasjaAndHiddenRoon
         public static void Main(string[] args)
         {
             Console.ReadLine();
-            var s = Array.ConvertAll(Console.ReadLine().Split(' '), Convert.ToInt64);//.OrderByDescending(c => c);
-            Array.Sort(s, (a, c) => c.CompareTo(a));
+            var doors = new SortedDictionary<ulong, ulong>();
+            var brushes = new SortedDictionary<ulong, ulong>();
 
-            var dick = new SortedDictionary<long, long>();
-            foreach (var elem in Console.ReadLine().Split(' '))
+            var input0 = Console.ReadLine().Split(' ');
+            foreach (var elem in input0)
             {
-                var i = Convert.ToInt64(elem);
-                if (dick.ContainsKey(i))
+                var i = ulong.Parse(elem);
+                if (doors.ContainsKey(i))
                 {
-                    ++dick[i];
+                    ++doors[i];
                     continue;
                 }
-                dick.Add(i, 1);
+                doors.Add(i, 1);
+            }
+            var input2 = Console.ReadLine().Split(' ');
+            foreach (var elem in input2)
+            {
+                var i = ulong.Parse(elem);
+                if (brushes.ContainsKey(i))
+                {
+                    ++brushes[i];
+                    continue;
+                }
+                brushes.Add(i, 1);
             }
 
-            long sum = 0;
-            for (var i = 0; i < s.Length;)
+            BigInteger sum = 0;
+            while (doors.Count > 0)
             {
-                var key = dick.Keys.Last();
-                var value = dick[key];
-                for (var j = 0; j < value; ++j, ++i)
+                var door = doors.Keys.Last();
+                var brush = brushes.Keys.Last();
+                sum += new BigInteger(door) * new BigInteger(brush);
+                if (doors[door] > 1)
                 {
-                    sum += key * s[i];
-                }
-                dick.Remove(key);
-                if (dick.ContainsKey(key - 1))
-                {
-                    dick[key - 1] += value;
+                    doors[door] -= 1;
                 }
                 else
                 {
-                    dick.Add(key - 1, value);
+                    doors.Remove(door);
+                }
+                if (brushes[brush] > 1)
+                {
+                    brushes[brush] -= 1;
+                }
+                else
+                {
+                    brushes.Remove(brush);
+                }
+                if (brushes.ContainsKey(brush - 1))
+                {
+                    brushes[brush - 1] += 1;
+                }
+                else
+                {
+                    brushes.Add(brush - 1, 1);
                 }
             }
             Console.WriteLine(sum);
